@@ -1,0 +1,64 @@
+div {
+  box-shadow: rgb(0 0 0 /20%) 0px 2px 1px -1px, rgb(0 0 0 /14%) 0px 1px 1px 0px,
+    rgb(0 0 0 /12%) 0px 1px 3px 0cap;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.flexclass {
+  display: flex;
+}
+
+.sideclass {
+  width: 200px;
+  background-color: white;
+}
+
+.flex1class {
+  flex: 1;
+}
+
+.columnclass {
+  flex-direction: column;
+}
+
+.topclass {
+  height: 60px;
+  background-color: white;
+}
+
+.mg8class {
+  margin: 8px;
+}
+
+.mgr8class {
+  margin-right: 8px;
+}
+
+.mgt8class {
+  margin-top: 8px;
+}
+
+.captionclass {
+  height: auto;
+  margin: 0;
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(222, 184, 135);
+  padding: 5px;
+}
+
+.navclass {
+  padding: 10px 20px;
+  border-bottom: 0px solid rgb(190, 190, 190);
+  font-size: 18px;
+  color: #666;
+}
+
+/*当屏幕宽度小于600px时，一般为移动端，要修改CSS配置*/
+@media (max-width: 600px) {
+}
