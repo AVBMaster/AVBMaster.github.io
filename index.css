@@ -61,4 +61,20 @@ body {
 
 /*当屏幕宽度小于600px时，一般为移动端，要修改CSS配置*/
 @media (max-width: 600px) {
+  .cebian {
+    display: none;
+  }
+  .neirong {
+    flex-direction: column;
+  }
+  .shujuqu {
+    flex-direction: column;
+  }
+  .shujukuai {
+    margin: 0px 0px 8px;
+    flex: auto;
+  }
+  .youqu {
+    margin-left: 8px;
+  }
 }
